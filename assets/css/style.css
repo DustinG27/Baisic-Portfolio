@@ -148,3 +148,37 @@ h1 {
   border-top: 6px solid black;
   text-align: center;
 }
+
+/* Portfolio Section */
+
+#portfolio {
+  width: 80%;
+  background-color: white;
+  margin-left: 10%;
+  position: relative;
+  margin-top: 40px;
+}
+
+#content-portfolio {
+  width: 100%;
+  background-color: grey;
+  float: left;
+  margin-left: 0;
+  overflow: auto;
+  clear: both;
+}
+
+.work {
+margin-left: 0;
+background: #800000;
+color: #fff;
+padding: 20px;
+position: relative;
+top: -20px;
+
+h3 {
+  line-height: 10px;
+  border: 1px solid black;
+  padding-top: 20px;
+  margin-top: 10px;
+}

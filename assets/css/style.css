@@ -112,7 +112,7 @@ nav a:hover::before {
   width: 100%;
 }
 
-/* ABOUT ME SECTION */
+/* ABOUT ME SECTION and MAIN BODY PARAGRAPH */
 
 #body-container {
   padding-top: 20px;
@@ -138,6 +138,7 @@ h1 {
 }
 
 /* FOOTER */
+
 .page-footer {
   position: fixed;
   bottom: 0;
@@ -147,6 +148,7 @@ h1 {
   background-color: #800000;
   border-top: 6px solid black;
   text-align: center;
+  overflow: auto;
 }
 
 /* Portfolio Section */
@@ -159,26 +161,44 @@ h1 {
   margin-top: 40px;
 }
 
-#content-portfolio {
+.content-portfolio {
   width: 100%;
-  background-color: grey;
+  background-color: white;
   float: left;
   margin-left: 0;
+  position: relative;
+  text-align: center;
   overflow: auto;
   clear: both;
 }
 
-.work {
-margin-left: 0;
-background: #800000;
-color: #fff;
-padding: 20px;
-position: relative;
-top: -20px;
+/*
 
-h3 {
-  line-height: 10px;
+I can't get this to work at the current moment.
+
+div.work:hover {
   border: 1px solid black;
-  padding-top: 20px;
-  margin-top: 10px;
+  padding: 0;
+}
+
+The buttons move when I hover over them
+
+*/
+
+.work {
+  float: left;
+  width: 200px;
+  padding: 40px;
+  align-content: center;
+  position: relative;
+}
+
+.workName {
+  background-color: #800;
+  color: white;
+  line-height: 40px;
+  width: 200px;
+  margin: 0;
+  position: absolute;
+  bottom: 24px;
 }

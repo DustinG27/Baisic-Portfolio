@@ -14,7 +14,8 @@ body {
   min-height: 100%;
   display: grid;
   grid-template-rows: auto 1fr auto;
-  overflow: hidden;
+  overflow: auto;
+  width: 960px;
 }
 
 .page-content {
@@ -30,7 +31,7 @@ body {
 
 .container {
   flex-grow: 1;
-  width: 80%;
+  width: 960px;
   margin: 0 auto;
   clear: both;
 }
@@ -119,6 +120,7 @@ nav a:hover::before {
   min-height: fit-content;
   font-size: small;
   float: left;
+  width: 80%;
 }
 
 .about-me {
@@ -135,6 +137,7 @@ h1 {
   border-bottom: 1px solid black;
   text-transform: lowercase;
   line-height: 50px;
+  padding-left: 20px;
 }
 
 /* FOOTER */
@@ -201,4 +204,37 @@ The buttons move when I hover over them
   margin: 0;
   position: absolute;
   bottom: 24px;
+}
+
+/* CONTACT SECTION */
+
+#contact {
+  width: 80%;
+  background-color: white;
+  margin-left: 10%;
+  position: absolute;
+  margin-top: 40px;
+  top: 90px;
+  bottom: 120px;
+}
+
+.txtb {
+  padding: 10px 20px;
+}
+
+.txtb input,
+.txtb textarea {
+  width: 100%;
+  outline: none;
+  font-size: 12px;
+  margin-top: 6px;
+}
+
+.btn {
+  margin-left: 20px;
+  border-radius: 5px;
+  color: white;
+  background-color: #800000;
+  padding: 5px;
+  cursor: pointer;
 }

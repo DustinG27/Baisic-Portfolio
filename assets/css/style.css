@@ -8,6 +8,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  overflow: auto;
 }
 
 .wrapper {
@@ -20,6 +21,7 @@ body {
 
 .page-content {
   min-height: 100%;
+  overflow: auto;
 }
 
 .page-content::after {
@@ -55,6 +57,7 @@ header {
   background-color: #ffffff;
   overflow: hidden;
   border-bottom: 1px solid black;
+  position: absolute;
 }
 
 /* NAVAGATION HEADER BUTTONS */
@@ -116,11 +119,14 @@ nav a:hover::before {
 /* ABOUT ME SECTION and MAIN BODY PARAGRAPH */
 
 #body-container {
-  padding-top: 20px;
-  min-height: fit-content;
-  font-size: small;
-  float: left;
-  width: 80%;
+  width: 60%;
+  background-color: white;
+  margin-left: 20%;
+  margin-right: 20%;
+  position: absolute;
+  margin-top: 40px;
+  top: 90px;
+  bottom: 120px;
 }
 
 .about-me {
@@ -157,11 +163,16 @@ h1 {
 /* Portfolio Section */
 
 #portfolio {
-  width: 80%;
+  width: 60%;
   background-color: white;
-  margin-left: 10%;
-  position: relative;
+  margin-left: 20%;
+  margin-right: 20%;
+  position: absolute;
   margin-top: 40px;
+  top: 90px;
+  bottom: 120px;
+  padding: 15px;
+  border: 1px solid #ddd;
 }
 
 .content-portfolio {
@@ -209,13 +220,16 @@ The buttons move when I hover over them
 /* CONTACT SECTION */
 
 #contact {
-  width: 80%;
+  width: 60%;
   background-color: white;
-  margin-left: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
   position: absolute;
   margin-top: 40px;
   top: 90px;
   bottom: 120px;
+  border: 1px solid #ddd;
+  overflow: auto;
 }
 
 .txtb {

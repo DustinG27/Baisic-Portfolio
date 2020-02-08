@@ -1,0 +1,177 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-image: url("rockywall.png");
+  width: 100%;
+  height: 100%;
+  font-family: "Helvetica";
+}
+/* Header and Navagation bar */
+
+.header {
+  width: 100%;
+  height: 80px;
+  display: block;
+  background-color: white;
+  border-bottom: 1px solid #101010;
+}
+
+.inner_header {
+  width: 1000px;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.logo_container {
+  height: 100%;
+  display: table;
+  float: left;
+  background-color: #800;
+}
+
+.logo_container h1 {
+  color: white;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: "Helvetica";
+  font-size: 32px;
+  font-weight: 200;
+}
+
+.logo_container h1 span {
+  font-weight: 800;
+}
+
+.navigation {
+  float: right;
+  height: 100%;
+}
+
+.navigation a {
+  height: 100%;
+  display: table;
+  float: left;
+  padding: 0px 20px;
+}
+
+.navigation a:last-child {
+  padding-right: 0;
+}
+
+.navigation a li {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  color: grey;
+  font-family: "Helvetica";
+  font-size: 16px;
+}
+
+.navigation a li:hover {
+  color: black;
+  cursor: pointer;
+}
+
+/* Footerbar */
+
+footer {
+  width: 100%;
+  height: 30px;
+  bottom: 0;
+  padding-top: 5px;
+  text-align: center;
+  color: white;
+  background-color: #800000;
+  font-family: "Helvetica";
+  border-top: 6px solid #101010;
+  position: fixed;
+  overflow: auto;
+}
+
+/* This section contains About Me */
+
+.content {
+  width: 1000px;
+  height: 100%;
+  display: block;
+  margin: 40px auto;
+  background-color: white;
+  border: 1px solid #101010;
+}
+
+.content_inner {
+  padding: 20px;
+}
+
+.content_inner h1 {
+  color: #800000;
+  border-bottom: 1px solid #101010;
+  margin-bottom: 25px;
+}
+
+.Headshot {
+  width: 200px;
+  height: 150px;
+  float: left;
+  padding-right: 7px;
+  margin: 10px 10px 10px;
+}
+
+.body {
+  font-size: 18px;
+}
+
+/* This is the Portfolio Page */
+
+.content_portfolio::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.work {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  vertical-align: middle;
+  position: relative;
+}
+
+.work_name {
+  background-color: #800000;
+  color: white;
+  width: 200px;
+  line-height: 40px;
+  position: absolute;
+  margin: 0;
+  bottom: 10px;
+}
+
+/* This section conatins the Contact Page */
+
+.txtb {
+  padding: 10px 0px;
+}
+
+.txtb input,
+.txtb textarea {
+  width: 100%;
+  outline: none;
+  font-size: 18px;
+  margin-top: 6px;
+}
+
+.btn {
+  color: white;
+  background-color: #800000;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px;
+}

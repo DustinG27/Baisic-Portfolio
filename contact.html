@@ -1,79 +1,65 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html>
   <head>
-    <title>dg | portfolio</title>
-
-    <!--Linking CSS Stylesheet-->
-    <meta charset="UTF-8" />
-
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>
+      New Portfolio
+    </title>
   </head>
-
   <body>
-    <div>
-      <div class="wrapper">
-        <div class="portfolio-content"></div>
+    <div class="header">
+      <div class="inner_header">
+        <div class="logo_container">
+          <h1>dustin<span>george</span></h1>
+        </div>
 
-        <header id="a">
-          <div class="container">
-            <a href="index.html" id="logo">dustin george</a>
-
-            <nav>
-              <ul>
-                <li><a href="index.html">About </a></li>
-                <li><a href="portfolio.html">Portfolio </a></li>
-                <li><a href="contact.html"> Contact</a></li>
-              </ul>
-            </nav>
-          </div>
-        </header>
-
-        <!--contact main body-->
-
-        <section id="contact">
-          <h1>contact</h1>
-
-          <form>
-            <div class="txtb">
-              <label>
-                Name :
-              </label>
-
-              <input
-                type="text"
-                name=""
-                value=""
-                placeholder="Enter Your Name"
-              />
-            </div>
-
-            <div class="txtb">
-              <label>
-                Email :
-              </label>
-
-              <input
-                type="email"
-                name=""
-                value=""
-                placeholder="Enter Your Email"
-              />
-            </div>
-
-            <div class="txtb">
-              <label>
-                Message :
-              </label>
-
-              <textarea></textarea>
-            </div>
-            <br />
-            <a class="btn">Submit</a>
-          </form>
-        </section>
-
-        <footer class="page-footer">&#64; 2020 dustin george</footer>
+        <ul class="navigation">
+          <a><li>about</li></a>
+          <a><li>|</li></a>
+          <a href="portfolio.html"><li>portfolio</li></a>
+          <a><li>|</li></a>
+          <a><li>contact</li></a>
+        </ul>
       </div>
     </div>
+
+    <div class="content">
+      <div class="content_inner">
+        <h1>contact</h1>
+        <form>
+          <div class="txtb">
+            <label>
+              Name :
+            </label>
+
+            <input type="text" name="" value="" placeholder="Enter Your Name" />
+          </div>
+
+          <div class="txtb">
+            <label>
+              Email :
+            </label>
+
+            <input
+              type="text"
+              name=""
+              value=""
+              placeholder="Enter Your Email"
+            />
+          </div>
+
+          <div class="txtb">
+            <label>
+              Message :
+            </label>
+
+            <textarea></textarea>
+          </div>
+          <br />
+          <a class="btn">Sumbit</a>
+        </form>
+      </div>
+    </div>
+    <footer>2020 dustin george</footer>
   </body>
 </html>

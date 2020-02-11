@@ -133,14 +133,16 @@ footer {
 .content_portfolio::after {
   content: "";
   clear: both;
-  display: table;
+  display: block;
 }
 
 .work {
   float: left;
-  width: 33.33%;
+  width: 30%;
   padding: 5px;
-  vertical-align: middle;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
 }
 

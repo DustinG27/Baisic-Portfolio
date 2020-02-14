@@ -162,6 +162,12 @@ footer {
   padding: 10px 0px;
 }
 
+textarea {
+  height: 200px;
+  max-width: 100%;
+  min-width: 100%;
+}
+
 .txtb input,
 .txtb textarea {
   width: 100%;
